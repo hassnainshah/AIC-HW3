@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+}
+nav #navTop,#navBot{
+    background-color: white;
+    align-items: center;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    display: flex;
+    /* background-color: aqua; */
+    font-size: 20px;
+    border-bottom: 1px solid rgb(203, 203, 203);
+    
+}
+
+nav #navBot{
+    border: 0;
+}
+nav #left{
+    color: rgb(23, 136, 23);
+    /* background-color: red; */
+    margin: 2px;
+}
+
+nav #left img{
+    padding-top: 10px;
+    width: 90px;
+}
+
+nav #middle{
+    display: flex;
+    /* background-color: orange; */
+    margin: 2px;
+    width: 400px;
+    color: rgb(203, 203, 203);
+    border: 2px solid rgb(203, 203, 203);
+    border-radius: 20px;
+}
+
+nav #middle img{
+    padding: 3px;
+    cursor: pointer;
+    margin: 0 0 0 5px;
+    width: 25px;
+    height: 30px;
+}
+
+nav #middle input{
+    background-color: transparent;
+    border: 0px;
+    border-radius: 25px;
+    width: 70%;
+}
+
+nav #middle button{
+    padding: 0 10px 0 10px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    border-radius: 10px;
+}
+nav #Mleft{
+    width: 550px;
+    font-size: 15px;
+    /* background-color: orangered; */
+    margin: 2px;
+}
+
+nav #Mleft ul,li, nav #navBot ul,li{
+    font-size: 13px;
+    padding: 0 15px 0 10px;
+    display: flex;
+}
+
+nav #Mright{
+    /* background-color: rgb(255, 200, 0); */
+    margin: 2px;
+}
+
+nav #Mright button{
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    border: 0px;
+    padding: 5px 20px 5px 20px;
+}
+nav #right{
+    font-size: 15px;
+    background-color: transparent;
+    margin: 2px;
+}
+
+nav #right button{
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    border: 0px;
+    background-color: rgb(23, 136, 23);
+    color: rgb(255, 255, 255);
+    padding: 5px 20px 5px 20px;
+    border-radius: 25px;
+}
+
+#content{
+    background-color: white;
+    padding: 70px;
+    font-size: 50px;
+}
+
+#container{
+    display: grid;
+    gap: 20px;
+    grid-template-areas:'left right' ;
+    background-color: white;
+    padding: 3px;
+    font-size: 50px;
+    color: blue;
+}
+
+#container .left{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    grid-area: left;
+    padding: 0 80px 30px 80px;
+    background-color: white;
+    font-size: 30px;
+    color: RGB(94, 109, 85);
+}
+
+#container .left h2,p{
+    padding: 25px 0 0 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 70px;
+    color: rgb(47, 206, 47);
+}
+
+#container .left .text{
+    text-align: left;
+    padding: 10px 0 40px 0;
+    font-size: 25px;
+    color: rgb(94, 109, 85);
+}
+
+#container .left button{
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    border: 0px;
+    background-color: rgb(23, 136, 23);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px 10px 20px;
+    border-radius: 25px;
+}
+
+
+#container .right{
+    grid-area: right;
+    padding: 45px;
+    background-color: white;
+}
+
+#container .right img{
+    width: 440px;
+}
